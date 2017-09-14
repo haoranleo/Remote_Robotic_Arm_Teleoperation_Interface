@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: finalasm_moveit_config_test
+Description: Description of finalasm_moveit_config_test
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/install/lib 
+Requires: 

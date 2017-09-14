@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: rail_manipulation_msgs
+Description: Description of rail_manipulation_msgs
+Version: 0.0.9
+Cflags: -I/home/orsteam/SummerProject/devel/include
+Libs: -L/home/orsteam/SummerProject/devel/lib 
+Requires: actionlib_msgs geometry_msgs sensor_msgs visualization_msgs

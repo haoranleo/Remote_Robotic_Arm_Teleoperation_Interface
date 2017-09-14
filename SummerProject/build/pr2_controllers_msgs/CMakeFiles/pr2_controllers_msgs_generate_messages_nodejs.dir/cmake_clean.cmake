@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pr2_controllers_msgs_generate_messages_nodejs"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadFeedback.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionFeedback.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryFeedback.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionAction.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionResult.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionFeedback.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointControllerState.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadResult.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionFeedback.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionGoal.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionResult.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadGoal.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionFeedback.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionGoal.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandGoal.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryAction.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionGoal.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionFeedback.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandAction.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandFeedback.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionResult.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadAction.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryResult.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionResult.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommand.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryControllerState.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionResult.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryGoal.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionGoal.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandResult.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionGoal.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/srv/QueryCalibrationState.js"
+  "/home/orsteam/SummerProject/devel/share/gennodejs/ros/pr2_controllers_msgs/srv/QueryTrajectoryState.js"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/pr2_controllers_msgs_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

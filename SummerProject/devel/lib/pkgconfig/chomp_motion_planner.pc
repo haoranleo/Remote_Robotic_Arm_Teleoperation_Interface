@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: chomp_motion_planner
+Description: Description of chomp_motion_planner
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/src/moveit_planners/chomp/chomp_motion_planner/include
+Libs: -L/home/orsteam/SummerProject/devel/lib -lchomp_motion_planner
+Requires: 

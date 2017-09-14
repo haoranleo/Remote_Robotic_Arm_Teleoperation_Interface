@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: moveit_msgs
+Description: Description of moveit_msgs
+Version: 0.9.1
+Cflags: -I/home/orsteam/SummerProject/devel/include
+Libs: -L/home/orsteam/SummerProject/devel/lib 
+Requires: std_msgs actionlib_msgs sensor_msgs geometry_msgs trajectory_msgs shape_msgs object_recognition_msgs octomap_msgs

@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: moveit_ros_move_group
+Description: Description of moveit_ros_move_group
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/src/moveit_ros/move_group/include
+Libs: -L/home/orsteam/SummerProject/devel/lib -lmoveit_move_group_capabilities_base
+Requires: moveit_core moveit_ros_planning

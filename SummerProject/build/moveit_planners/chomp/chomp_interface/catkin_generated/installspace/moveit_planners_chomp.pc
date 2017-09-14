@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: moveit_planners_chomp
+Description: Description of moveit_planners_chomp
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/install/include
+Libs: -L/home/orsteam/SummerProject/install/lib -lmoveit_planners_chomp
+Requires: roscpp moveit_core pluginlib

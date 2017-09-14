@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: moveit_setup_assistant
+Description: Description of moveit_setup_assistant
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/install/include
+Libs: -L/home/orsteam/SummerProject/install/lib -lmoveit_setup_assistant_tools
+Requires: moveit_ros_planning moveit_ros_visualization

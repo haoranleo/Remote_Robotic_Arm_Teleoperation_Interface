@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orsteam/SummerProject/devel/include/moveit/version.h
+
+/home/orsteam/SummerProject/src/moveit_core/version/version.cpp
+moveit/version.h
+-
+cstdio
+-
+

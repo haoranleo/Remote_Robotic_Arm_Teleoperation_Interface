@@ -1,0 +1,6 @@
+<launch>
+ 
+  <node pkg="rail_agile_nodes" type="ClickedImageClientcp" name="ClickedImageClientcp" output="screen"/>
+    
+  <node pkg="rail_agile_nodes" type="point_cloud_clicker" name="point_cloud_clicker" output="screen"/>
+</launch>

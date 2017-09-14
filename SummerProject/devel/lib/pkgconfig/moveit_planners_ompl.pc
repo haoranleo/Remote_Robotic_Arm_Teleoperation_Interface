@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: moveit_planners_ompl
+Description: Description of moveit_planners_ompl
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/devel/include -I/home/orsteam/SummerProject/src/moveit_planners/ompl/ompl_interface/include -I/opt/ros/kinetic/include
+Libs: -L/home/orsteam/SummerProject/devel/lib -lmoveit_ompl_interface -l:/opt/ros/kinetic/lib/x86_64-linux-gnu/libompl.so
+Requires: moveit_core

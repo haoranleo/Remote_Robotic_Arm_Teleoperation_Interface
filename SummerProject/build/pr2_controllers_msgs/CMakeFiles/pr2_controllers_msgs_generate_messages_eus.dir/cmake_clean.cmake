@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pr2_controllers_msgs_generate_messages_eus"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadFeedback.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionFeedback.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryFeedback.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionAction.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryActionResult.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionFeedback.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointControllerState.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadResult.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadActionFeedback.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionGoal.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionResult.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadGoal.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionActionFeedback.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryActionGoal.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandGoal.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryAction.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionGoal.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryActionFeedback.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandAction.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandFeedback.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionResult.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadAction.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryResult.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionActionResult.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommand.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryControllerState.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadActionResult.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/JointTrajectoryGoal.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/SingleJointPositionActionGoal.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/Pr2GripperCommandResult.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/msg/PointHeadActionGoal.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/srv/QueryCalibrationState.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/srv/QueryTrajectoryState.l"
+  "/home/orsteam/SummerProject/devel/share/roseus/ros/pr2_controllers_msgs/manifest.l"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/pr2_controllers_msgs_generate_messages_eus.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

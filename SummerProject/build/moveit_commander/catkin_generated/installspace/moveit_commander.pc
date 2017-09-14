@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 0.9.9
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/install/lib 
+Requires: 

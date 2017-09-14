@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: moveit_ros_robot_interaction
+Description: Description of moveit_ros_robot_interaction
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/install/include
+Libs: -L/home/orsteam/SummerProject/install/lib -lmoveit_robot_interaction
+Requires: moveit_ros_planning interactive_markers

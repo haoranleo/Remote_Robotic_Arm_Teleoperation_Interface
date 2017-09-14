@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -DNDEBUG -O3 -fopenmp -Wno-deprecated -Wenum-compare   -shared -Wl,-soname,libfinger_hand.so -o /home/orsteam/SummerProject/devel/lib/libfinger_hand.so CMakeFiles/finger_hand.dir/src/agile_grasp/finger_hand.cpp.o 

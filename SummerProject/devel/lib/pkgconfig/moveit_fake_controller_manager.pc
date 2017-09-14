@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: moveit_fake_controller_manager
+Description: Description of moveit_fake_controller_manager
+Version: 0.9.9
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/devel/lib 
+Requires: moveit_core moveit_ros_planning

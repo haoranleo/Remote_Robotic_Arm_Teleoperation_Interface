@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: moveit_controller_manager_example
+Description: Description of moveit_controller_manager_example
+Version: 0.9.9
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/install/lib 
+Requires: moveit_core

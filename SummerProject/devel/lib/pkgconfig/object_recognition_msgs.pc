@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: object_recognition_msgs
+Description: Description of object_recognition_msgs
+Version: 0.4.1
+Cflags: -I/home/orsteam/SummerProject/devel/include
+Libs: -L/home/orsteam/SummerProject/devel/lib 
+Requires: actionlib_msgs geometry_msgs sensor_msgs shape_msgs std_msgs

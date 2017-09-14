@@ -1,0 +1,10 @@
+(cl:defpackage rail_agile_grasp_msgs-srv
+  (:use )
+  (:export
+   "CHANGEPOINTCLOUD"
+   "<CHANGEPOINTCLOUD-REQUEST>"
+   "CHANGEPOINTCLOUD-REQUEST"
+   "<CHANGEPOINTCLOUD-RESPONSE>"
+   "CHANGEPOINTCLOUD-RESPONSE"
+  ))
+

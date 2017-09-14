@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: moveit_ros_benchmarks
+Description: Description of moveit_ros_benchmarks
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/src/moveit_ros/benchmarks/include
+Libs: -L/home/orsteam/SummerProject/devel/lib -lmoveit_ros_benchmarks
+Requires: moveit_ros_planning moveit_ros_warehouse roscpp

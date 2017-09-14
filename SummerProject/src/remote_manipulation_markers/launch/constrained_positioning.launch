@@ -1,0 +1,13 @@
+<launch>
+  <arg name="grasp_topic" default="grasp" />
+  <arg name="run_separate_vis" default="true" />
+
+  <node pkg="remote_manipulation_markers" type="constrained_positioning" name="constrained_positioning">
+    <param name="grasp_topic" value="$(arg grasp_topic)" />
+  </node>
+
+  <node pkg="remote_manipulation_markers" type="gripper_marker_vis" name="gripper_marker_vis" if="$(arg run_separate_vis)">
+    <param name="marker_node_name" value="constrained_positioning" />
+  </node>
+ <node pkg="tf" type="static_transform_publisher" name="table_base_transform_cp" args="0.525 0.755 0 -1.570796 0 3.141593 camera_link table_base_link 30" />
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: freenect_camera
+Description: Description of freenect_camera
+Version: 0.4.2
+Cflags: -I/home/orsteam/SummerProject/install/include
+Libs: -L/home/orsteam/SummerProject/install/lib 
+Requires: camera_info_manager diagnostic_updater dynamic_reconfigure image_transport nodelet roscpp sensor_msgs

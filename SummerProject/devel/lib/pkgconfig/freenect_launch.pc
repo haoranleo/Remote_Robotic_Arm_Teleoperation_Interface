@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: freenect_launch
+Description: Description of freenect_launch
+Version: 0.4.2
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/devel/lib 
+Requires: 

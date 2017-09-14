@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pr2_controllers_msgs_generate_messages_py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_PointHeadFeedback.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_SingleJointPositionFeedback.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointTrajectoryFeedback.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_SingleJointPositionAction.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointTrajectoryActionResult.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_Pr2GripperCommandActionFeedback.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointControllerState.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_PointHeadResult.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_PointHeadActionFeedback.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_Pr2GripperCommandActionGoal.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_SingleJointPositionResult.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_PointHeadGoal.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_SingleJointPositionActionFeedback.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointTrajectoryActionGoal.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_Pr2GripperCommandGoal.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointTrajectoryAction.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_SingleJointPositionGoal.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointTrajectoryActionFeedback.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_Pr2GripperCommandAction.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_Pr2GripperCommandFeedback.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_Pr2GripperCommandActionResult.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_PointHeadAction.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointTrajectoryResult.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_SingleJointPositionActionResult.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_Pr2GripperCommand.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointTrajectoryControllerState.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_PointHeadActionResult.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_JointTrajectoryGoal.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_SingleJointPositionActionGoal.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_Pr2GripperCommandResult.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/_PointHeadActionGoal.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/srv/_QueryCalibrationState.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/srv/_QueryTrajectoryState.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/msg/__init__.py"
+  "/home/orsteam/SummerProject/devel/lib/python2.7/dist-packages/pr2_controllers_msgs/srv/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/pr2_controllers_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

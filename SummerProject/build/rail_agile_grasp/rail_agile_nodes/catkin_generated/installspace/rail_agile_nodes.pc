@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: rail_agile_nodes
+Description: Description of rail_agile_nodes
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/install/lib 
+Requires: 

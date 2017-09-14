@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -DNDEBUG -O3 -fopenmp -Wno-deprecated -Wenum-compare   -shared -Wl,-soname,libantipodal.so -o /home/orsteam/SummerProject/devel/lib/libantipodal.so CMakeFiles/antipodal.dir/src/agile_grasp/antipodal.cpp.o 

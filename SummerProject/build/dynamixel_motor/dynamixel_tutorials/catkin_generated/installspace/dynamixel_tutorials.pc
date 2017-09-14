@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: dynamixel_tutorials
+Description: Description of dynamixel_tutorials
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/install/lib 
+Requires: dynamixel_controllers

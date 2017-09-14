@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: dynamixel_driver
+Description: Description of dynamixel_driver
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/install/lib 
+Requires: rospy diagnostic_msgs

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fujenchu/catkin_ws/src/dynamixel_motor/dynamixel_controllers/devel/setup.sh

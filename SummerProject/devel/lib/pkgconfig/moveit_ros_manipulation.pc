@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: moveit_ros_manipulation
+Description: Description of moveit_ros_manipulation
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/devel/include -I/home/orsteam/SummerProject/src/moveit_ros/manipulation/pick_place/include -I/home/orsteam/SummerProject/src/moveit_ros/manipulation/move_group_pick_place_capability/include -I/usr/include/eigen3
+Libs: -L/home/orsteam/SummerProject/devel/lib -lmoveit_pick_place_planner
+Requires: moveit_core moveit_ros_planning

@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: remote_manipulation_markers
+Description: Description of remote_manipulation_markers
+Version: 1.0.1
+Cflags: -I/home/orsteam/SummerProject/devel/include -I/usr/include/eigen3
+Libs: -L/home/orsteam/SummerProject/devel/lib 
+Requires: moveit_core moveit_ros_planning_interface interactive_markers geometry_msgs

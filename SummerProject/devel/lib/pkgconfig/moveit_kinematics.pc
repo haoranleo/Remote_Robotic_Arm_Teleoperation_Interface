@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/devel
+
+Name: moveit_kinematics
+Description: Description of moveit_kinematics
+Version: 0.9.9
+Cflags: -I/home/orsteam/SummerProject/src/moveit_kinematics/kdl_kinematics_plugin/include -I/home/orsteam/SummerProject/src/moveit_kinematics/lma_kinematics_plugin/include -I/home/orsteam/SummerProject/src/moveit_kinematics/srv_kinematics_plugin/include -I/usr/include/eigen3
+Libs: -L/home/orsteam/SummerProject/devel/lib 
+Requires: pluginlib moveit_core moveit_ros_planning

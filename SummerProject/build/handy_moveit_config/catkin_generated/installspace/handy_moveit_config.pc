@@ -1,0 +1,8 @@
+prefix=/home/orsteam/SummerProject/install
+
+Name: handy_moveit_config
+Description: Description of handy_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/orsteam/SummerProject/install/lib 
+Requires: 

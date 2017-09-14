@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pr2_controllers_msgs_generate_messages_cpp"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/PointHeadFeedback.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/SingleJointPositionFeedback.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointTrajectoryFeedback.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/SingleJointPositionAction.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointTrajectoryActionResult.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/Pr2GripperCommandActionFeedback.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointControllerState.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/PointHeadResult.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/PointHeadActionFeedback.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/Pr2GripperCommandActionGoal.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/SingleJointPositionResult.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/PointHeadGoal.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/SingleJointPositionActionFeedback.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointTrajectoryActionGoal.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/Pr2GripperCommandGoal.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointTrajectoryAction.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/SingleJointPositionGoal.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointTrajectoryActionFeedback.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/Pr2GripperCommandAction.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/Pr2GripperCommandFeedback.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/Pr2GripperCommandActionResult.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/PointHeadAction.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointTrajectoryResult.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/SingleJointPositionActionResult.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/Pr2GripperCommand.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointTrajectoryControllerState.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/PointHeadActionResult.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/JointTrajectoryGoal.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/SingleJointPositionActionGoal.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/Pr2GripperCommandResult.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/PointHeadActionGoal.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/QueryCalibrationState.h"
+  "/home/orsteam/SummerProject/devel/include/pr2_controllers_msgs/QueryTrajectoryState.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/pr2_controllers_msgs_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
