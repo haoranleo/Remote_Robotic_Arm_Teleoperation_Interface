@@ -37,12 +37,12 @@ bool PointAndClick::executeArmCallback(remote_manipulation_markers::ExecuteArm::
 {
   if(req.execute)
   {
-    cout<<"<<"<<endl;
+    //cout<<"<<"<<endl;
   res.grasp.header.frame_id = graspList.header.frame_id;
   res.grasp.pose = graspList.poses[graspIndex];
   return true;
   }
-  cout<<">>"<<endl;
+  //cout<<">>"<<endl;
   return false;
 
 }
@@ -56,7 +56,7 @@ void PointAndClick::graspsCallback(const geometry_msgs::PoseArray &grasps)
 {
   graspList = grasps;
   graspIndex = 0;
-  cout<<"$$$$$$"<<endl;
+  //cout<<"$$$$$$"<<endl;
   updateMarker();
 
   graspsReceived = true;
