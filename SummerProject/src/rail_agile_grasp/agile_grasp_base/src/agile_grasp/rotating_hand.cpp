@@ -15,6 +15,7 @@ RotatingHand::RotatingHand(const Eigen::VectorXd& camera_origin_left,
 	//if run on ubuntu 14.04 & indigo, uncomment line 16 and comment line 17
 	// angles_=angles.block(0,0,1,num_orientations);
 	angles_ = angles.block(0, 0, num_orientations, 1);
+	//here for outputing information to the screen for testing
 	//std::cout<<"angles_value"<<endl;
 	//std::cout<<cos(angles_(0))<<endl;
 	//std::cout<<angles_(1)<<endl;
@@ -91,6 +92,7 @@ std::vector<GraspHypothesis> RotatingHand::evaluateHand(double init_bite, const 
 {
 	// initialize hands to zero
 	int n = angles_.size();
+	//from different angle
     //std::cout<<"angles size = "<<n<<endl;
 	std::vector<GraspHypothesis> grasp_list;
 
@@ -118,7 +120,7 @@ std::vector<GraspHypothesis> RotatingHand::evaluateHand(double init_bite, const 
 		finger_hand_.setPoints(points_rot);
 		finger_hand_.evaluateFingers(init_bite);
 		finger_hand_.evaluateHand();
-
+	
 		if (finger_hand_.getHand().sum() > 0)
 		{
 			//std::cout<<"Circle No. = "<<i<<endl;
@@ -182,6 +184,7 @@ std::vector<GraspHypothesis> RotatingHand::evaluateHand(double init_bite, const 
 			}
 
 			grasp_list.push_back(grasp);
+			//add suitable target pose to grasp_list
 		}
 	}
 
